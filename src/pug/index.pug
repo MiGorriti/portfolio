@@ -1,0 +1,209 @@
+doctype html
+html(lang='en')
+
+    head
+
+        meta(charset='utf-8')
+        meta(name='viewport', content='width=device-width, initial-scale=1, shrink-to-fit=no')
+        meta(name='description', content='')
+        meta(name='author', content='')
+
+        title Resume - Start Bootstrap Theme
+
+        link(rel='icon', type='image/x-icon', href='assets/img/favicon.ico')
+
+        // Font Awesome icons (free version)
+        script(src='https://use.fontawesome.com/releases/v6.3.0/js/all.js', crossorigin='anonymous')
+
+        // Google fonts
+        link(href='https://fonts.googleapis.com/css?family=Saira+Extra+Condensed:500,700', rel='stylesheet', type='text/css')
+        link(href='https://fonts.googleapis.com/css?family=Muli:400,400i,800,800i', rel='stylesheet', type='text/css')
+
+        // Core theme CSS (includes Bootstrap)
+        link(href='css/styles.css', rel='stylesheet')
+
+    body#page-top
+
+        // Navigation
+        nav#sideNav.navbar.navbar-expand-lg.navbar-dark.bg-primary.fixed-top
+            a.navbar-brand.js-scroll-trigger(href='#page-top')
+                span.d-block.d-lg-none Miguel Gorriti
+                span.d-none.d-lg-block
+                    img.img-fluid.img-profile.rounded-circle.mx-auto.mb-2(src='assets/img/prueba.jpg', alt='...')
+            button.navbar-toggler(type='button', data-bs-toggle='collapse', data-bs-target='#navbarResponsive', aria-controls='navbarResponsive', aria-expanded='false', aria-label='Toggle navigation')
+                span.navbar-toggler-icon
+            #navbarResponsive.collapse.navbar-collapse
+                ul.navbar-nav
+                    li.nav-item
+                        a.nav-link.js-scroll-trigger(href='#about') About
+                    li.nav-item
+                        a.nav-link.js-scroll-trigger(href='#experience') Projects
+                    li.nav-item
+                        a.nav-link.js-scroll-trigger(href='#education') Education
+                    li.nav-item
+                        a.nav-link.js-scroll-trigger(href='#skills') Skills
+                    li.nav-item
+                        a.nav-link.js-scroll-trigger(href='#interests') Interests
+                    li.nav-item
+                        a.nav-link.js-scroll-trigger(href='#awards') Certifications
+
+        // Page Content
+        .container-fluid.p-0
+
+            // About
+            section#about.resume-section
+                .resume-section-content
+                    h1.mb-0
+                        | Miguel
+                        span.text-primary Gorriti
+                    .subheading.mb-5
+                        | Buenos Aires · Argentina, GMT-3 · +54 9 (3445) 43-3378 · 
+                        a(href='mailto:miguegorriti@gmail.com') miguegorriti@gmail.com
+                    p.lead.mb-5
+                        | I am a passionate junior front-end developer with a focus on creating engaging and functional user experiences. My background includes leading teams and contributing to both front-end and back-end development. In these projects, I've worked with technologies such as HTML, CSS, JavaScript, and Node.js, implementing creative and efficient solutions.
+                        |My love for coding is complemented by my language skills, as I am fluent in both English and German. This enables me to effectively collaborate in international teams and understand the needs of a global audience.
+                        |I am committed to continuing my career growth as a front-end developer, constantly learning and staying up-to-date with the latest trends and technologies. I'm eager to contribute my expertise and skills to the development of innovative solutions that enhance the user experience and drive successful projects forward.
+                    .social-icons
+                        a.social-icon(href='https://www.linkedin.com/in/miguel-gorriti/' target="_blank")
+                            i.fab.fa-linkedin-in
+                        a.social-icon(href='https://github.com/MiGorriti' target="_blank")
+                            i.fab.fa-github
+                        a.btn.btn-primary(href="assets/pdf/cv1.pdf", download='Mi_CV.pdf', style="color: white") Download English Resume
+                        a.btn.btn-primary(href="assets/pdf/cv2.pdf", download='Mi_CV.pdf', style="color: white") Download Spanish Resume
+
+            hr.m-0
+
+            // Experience
+            section#experience.resume-section
+               .resume-section-content
+                    h2.mb-5 Projects
+
+                    .d-flex.flex-column.flex-md-row.justify-content-between.mb-5
+                        .flex-grow-1
+                            h3.mb-0 House Rental App
+                            a(href='https://pf-2-lavenganza-front-6doztsbfp-migorriti.vercel.app/home' target="_blank") Visit
+                            p
+                                | Led a team of 6 developers in the development of a short-term property rental application. During this project, we applied the knowledge acquired from a bootcamp and explored the use of Tailwind technology. My primary responsibilities included managing styles, enhancing the user experience, team coordination, task assignment, and conducting testing on the application at each sprint. Our collaboration resulted in a successful project delivery, meeting the established timelines, and exceeding our initial expectations.
+                        .flex-shrink-0
+                            
+
+                    .d-flex.flex-column.flex-md-row.justify-content-between.mb-5
+                        .flex-grow-1
+                            h3.mb-0 Cars Selling App
+                            a(href='https://rumrum-nyd5.vercel.app/home' target="_blank") Visit
+                            p
+                                | In collaboration with fellow bootcamp peers, we set out to apply our knowledge by developing a test vehicle sales app. Our objective was to put our learning into practice and experiment with various team roles to identify our strengths. Although the project was not fully completed, we managed to create a functional version and define team roles, with me taking on the role of leader. Despite not reaching completion, this experience laid the groundwork for our subsequent project, which turned out polished and fully functional, in addition to helping us clarify the responsibilities of each team member.
+                        .flex-shrink-0
+                           
+
+                    .d-flex.flex-column.flex-md-row.justify-content-between.mb-5
+                        .flex-grow-1
+                            h3.mb-0 Recipe App
+                            
+                            p
+                                | In this project, I developed a recipe website, actively participating in both the frontend and backend development. My primary goal was to gain experience in the end-to-end development of a web application. I worked with SQL to manage a database where related information is stored. I used a server-side programming language, such as Node.js, to create endpoints that respond to frontend requests and manipulate data in the database. To facilitate communication between the frontend and backend, I implemented HTTP requests, including GET and POST requests, using protocols such as AJAX or the Fetch API. Working on this project allowed me to become familiar with client-server architecture, database management, server-side programming, and communication between the frontend and backend.
+                        .flex-shrink-0
+                            
+
+                    
+
+            hr.m-0
+
+            // Education
+            section#education.resume-section
+                .resume-section-content
+                    h2.mb-5 Education
+
+                    .d-flex.flex-column.flex-md-column.justify-content-between.mb-5
+                        .flex-grow-1
+                            h3.mb-0 Henry Bootcamp
+                            .subheading.mb-3 
+                            div Fullstack development 
+                            
+                        .flex-shrink-0
+                            span.text-primary April 2023 - October 2023
+
+                    .d-flex.flex-column.flex-md-column.justify-content-between
+                        .flex-grow-1
+                            h3.mb-0 General San Martín National University
+                            .subheading.mb-3 Telecomunications Enginering
+                            
+                        .flex-shrink-0
+                            span.text-primary February 2020 - March 2021
+
+                            .d-flex.flex-column.flex-md-row.justify-content-between
+                        .flex-grow-1
+                            h3.mb-0   General San Martín National University
+                            .subheading.mb-3 Business Managment
+                            
+                        .flex-shrink-0
+                            span.text-primary March 2021 - May 2022
+
+            hr.m-0
+
+            // Skills
+            section#skills.resume-section
+                .resume-section-content
+                    h2.mb-5 Skills
+                    .subheading.mb-3 Programming Languages & Tools
+                    ul.list-inline.dev-icons
+                        li.list-inline-item
+                            i.fab.fa-html5
+                        li.list-inline-item
+                            i.fab.fa-css3-alt
+                        li.list-inline-item
+                            i.fab.fa-js-square
+                        li.list-inline-item
+                            
+                            i.fab.fa-react
+                        li.list-inline-item
+                            i.fab.fa-node-js
+                        li.list-inline-item
+                            i.fab.fa-npm
+                    .subheading.mb-3 Workflow
+                    ul.fa-ul.mb-0
+                        
+                        
+                        li
+                            span.fa-li
+                                i.fas.fa-check
+                            | Cross Functional Teams
+                        li
+                            span.fa-li
+                                i.fas.fa-check
+                            | Agile Development & Scrum
+
+            hr.m-0
+
+            // Interests
+            section#interests.resume-section
+                .resume-section-content
+                    h2.mb-5 Interests
+                    p
+                        | Apart from being a web developer, I enjoy most of my time being outdoors. In the winter, I am an avid skier. During the warmer months here in Buenos Aires, I enjoy going to the beah and relax, drive long distances, and traveling.
+                    p.mb-0
+                        | When I'm indoors, I enjoy watching sci-fi and detective movies, playing video games, and indulging in my passion for cooking. A significant portion of my free time is dedicated to exploring the latest technological advancements in the world of front-end web development. Additionally, I have a strong enthusiasm for learning foreign languages and am currently studying both German and Italian.
+
+            hr.m-0
+
+            // Awards
+            section#awards.resume-section
+                .resume-section-content
+                    h2.mb-5  Certifications
+                    ul.fa-ul.mb-0
+                        li
+                            span.fa-li
+                                i.fas.fa-trophy.text-warning
+                            | Google Digital Marketing Certification
+                        li
+                            span.fa-li
+                                i.fas.fa-trophy.text-warning
+                            |  Web development - Henry Certification
+                        li
+                      
+
+        // Bootstrap core JS
+        script(src='https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js')
+
+        // Core theme JS
+        script(src='js/scripts.js')
